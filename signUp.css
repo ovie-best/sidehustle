@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: white;
+}
+:root {
+    color: #52a350;
+    color: #b6d86f;
+    color: #28a745;
+    color: #28a745;
+    color: #6c757d;
+    color: #a8a8a8;
+}
+
+header .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+}
+header .header input {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #52a350;
+    border: 1px solid #52a350;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+header .header input:hover {
+    border:none;
+    background: #52a350;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1 {
+    color: #28a745;
+    font-size: 40px;
+    font-family: 'GD Boing', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 60px;
+    font-size: 55px;
+    word-spacing: -5px;
+}
+
+.left form {
+    margin-bottom: 30px;
+}
+.left form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.left form input[type = 'checkbox']{
+    width: 24px;  
+}
+
+.terms p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.left form select {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.left form .first, .left form .third, .left form .fourth {
+    display: flex;
+    gap: 12px;
+}
+
+
+.left form .first input,
+.left form .second, .left form .third input,
+select, .left form .fifth,
+.left form .sixth {
+    padding: 15px 13px;
+    border-radius: 10px;
+    border: 2px solid #7d977d;
+    outline: none;
+}
+
+select {
+    background: transparent;
+    color: grey;
+}
+
+section {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 90px;
+    margin-top: 160px;
+    /* background-image: url(images/creat.0a265ec7.png); */
+    background-image: url(images/hero-bg.78de840e.png);
+    background-position: 100% 0;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.left form option {
+    color: black;
+}
+
+section .right {
+    max-width: 35%;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    padding: 20px;
+}
+
+section .right img {
+    width: 100%;
+}
+
+.left .terms {
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+ .left .btn, .btn2{
+    padding: 18px 13px;
+    border-radius: 10px;
+    border: none;
+    width: 450px;
+    margin-bottom: 35px;
+}
+
+.left .last-paragraph {
+    display: flex;
+    justify-content: center;
+
+}
+
+small {
+    font-size: 15px;
+}
+
+.terms input{
+    width: 20px;
+   color: #52a350;
+}
+.btn2 {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+span, a {
+    color: #28a745;
+}
+span:hover {
+    cursor: pointer;
+}
+
+.icon {
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -50px;
+    color: black;
+}
+
+header .header i {
+    visibility: hidden;
+}
+
+#hide1 {
+    display: none;
+}
+
+@media screen and (max-width: 375px){
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: white;
+        border-bottom: 2px solid #b6d86f;
+    }
+
+    header .header i{
+        visibility: visible;
+        font-size: 30px;
+    }
+
+    header .header i:hover {
+        cursor: pointer;
+    }
+    header .header .hamburger {
+        
+        display: flex;
+        align-items: center;
+        margin-left: 150px;
+    }
+
+    header .header input {
+        visibility: hidden;
+        display: block;
+        float: left;
+       
+    }
+
+    header .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 15px;
+    }
+
+    header .header img {
+        width: 150px;
+    }
+
+    section {
+        display: flex;
+        margin-bottom: 50px;
+        margin-top: 160px;
+    }
+
+    .left form .first, .left form .third, .left form .fourth {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    
+    .left form {
+        max-width: 280px;
+    }
+
+    section .right {
+       visibility: hidden;
+    }
+
+
+    .left .terms {
+        display: flex;
+        gap: 10px;
+        margin: 30px auto;
+    }
+    
+     .left .btn{
+        padding: 18px 13px;
+        border-radius: 10px;
+        border: none;
+        width: 300px;
+        margin-bottom: 30px;
+        color: gray;
+    }
+    
+    .left .last-paragraph {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .left h1 {
+        color: #28a745;
+        font-size: 30px;
+        font-family: 'GD Boing', sans-serif;
+        font-weight: bold;
+        margin-bottom: 40px;
+        line-height: 30px;
+        word-spacing: 5px;
+    }
+    
+    
+}
+@media screen and (max-width: 852px) {
+    div.left {
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+   
+    div.right {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    div.left {
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Side Hustle Internship 5.0</title>
+    <link rel="icon" href="https://sidehustle.ng/meta/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signUp.css">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <img src="images/logo-dark.114b4a7b.png" alt="side hustle logo">
+            <div class="hamburger">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            </div>
+            <a href="signIn.html"><input id="login" type="submit" value="Log in"></a>
+        </div>
+    </header>
+
+    <section>
+        <div class="left">
+            <h1>Become a Side<br> Hustle Intern</h1>
+            <form action="/" id="form">
+                <div class="first">
+                    <input type="text" name="firstname" placeholder="First Name" required id="firstname" onblur="checkFirstName()">
+                    <div id="feedback"></div>
+                    <input type="text" placeholder="Last Name" required id="lastname">
+                </div>
+                <input class="second" name="email" type="email" placeholder="Email" required>
+                <div class="third">
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="" selected>Country of Residence</option>
+                        <option value="">United States of America</option>
+                        <option value="">Mexico</option>
+                        <option value="">Canada</option>
+                        <option value="">UK</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Ghana</option>
+                        <option value="">Kenya</option>
+                        <option value="">Senegal</option>
+                      </select>
+                </div>
+                <div class="fourth">
+                    <select required>
+                        <option value="" selected>Level of Education</option>
+                        <option value="">School Cert</option>
+                        <option value="">Bachelor's degree</option>
+                        <option value="">Masters</option>
+                        <option value="">OND</option>
+                        <option value="">HND</option>
+                        
+                      </select>
+
+                      <select required>
+                        <option value="" selected>How did you hear about us</option>
+                        <option value="">Twitter</option>
+                        <option value="">Instagram</option>
+                        <option value="">Whatsapp</option>
+                        <option value="">Facebook</option>
+                        <option value="">From a friend</option>
+                        
+                      </select>
+                </div>
+                <div>
+                    <input class="fifth" name="password" type="password" placeholder="Create a Password" required>
+                    <span >
+                        <i class="fa fa-eye icon" id="hide1"></i>
+                        <i class="fa fa-eye-slash icon"></i>
+                    </span>
+                </div>
+                <div>
+                    <input class="sixth" name="passsword" type="password" placeholder="Confirm Password" required>
+                    <span>
+                        <i class="fa fa-eye icon" id="hide1"></i>
+                        <i class="fa fa-eye-slash icon"></i>
+                    </span>
+                </div>
+               
+                <div class="terms">
+                    <input type="checkbox" required>
+                    <p>I agree to Side Hustle's <span>Terms and Conditions</span> and<br> <span>Privacy Policy</span></p>
+                </div>
+                <button class="btn">Join the Internship</button>
+                <div class="last-paragraph">
+                    <small>Already have an account? <a href="#">Login here</a></small>
+                </div>
+                
+            </form>
+
+       
+        </div>
+
+        <div class="right">
+            <img src="images/reg.ef7ba620.png" alt="">
+        </div>
+        
+    </section>
+
+    <script src="signUp.js"></script>
+   
+</body>
+</html>

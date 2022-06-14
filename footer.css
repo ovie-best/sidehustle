@@ -1,0 +1,404 @@
+/* ===============================================================================================================
+--------------------------------------- IMPORTED GOOGLE FONTS ------------------------------------------------
+==================================================================================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&family=Poppins:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/2d8cf0a1ae3cf90fc45730a9e56b1db2?family=GD+Boing);
+   
+/* ===============================================================================================================
+--------------------------------------- global styling ------------------------------------------------
+==================================================================================================================*/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+section.footprint {
+    padding: 80px 60px;
+}
+
+.foot-print-container p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #08386d;
+    text-align: center;
+}
+.logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-print-logo {
+    padding: 20px;
+}
+.foot-print-logo img {
+    transform: scale(.6);
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.hide {
+    display: none;;
+}
+/* ===============================================================================================================
+--------------------------------------- STYLING FOR INFO ABOUT INTERNSHIP SECTION ---------------------------------------
+==================================================================================================================*/
+section.internship-info {
+    padding: 80px 60px;
+    }
+.internship-card {
+    background: #fff;
+    border: 0.4px solid #e3e3e3;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 30%;
+    overflow: hidden;
+}
+.internship-image img {
+    width: 100%;
+}
+.internship-details {
+    padding: 15px;
+}
+.internship-details h3 {
+    font-family: 'GD Boing', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+}
+.internship-details p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #898989;
+}
+
+.internship-details img[alt] {
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.internship-card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.internship-info button {
+    background-color: #52a350;
+    border: 1px solid #52a350;
+    color: #f5fafe;
+    cursor: pointer;
+    font-size: .8rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+.internship-info-button {
+    padding: 50px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+ /* div.choice {
+    display: inline-block;
+    float: right;
+    margin-top: -50px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #0354ad;
+    background: #fff;
+    border-radius: 50px;
+    padding: 5px 15px
+}  */
+/* ===============================================================================================================
+--------------------------------------- STYLING FOR STAY IN THE LOOP SECTION ---------------------------------------------
+==================================================================================================================*/
+section.loop {
+    background-image: url(images/subscribe-bg.0ab958bd.png);
+    background-color: #1d3754;
+    color: #fff;
+    padding: 65px 45px;
+}
+.loop-container {
+    padding: 60px 80px;
+    /* width: 80%; */
+    margin: 0 auto;
+    text-align: center;
+}
+ .loop-container img {
+     width: 50px;
+     /* margin-left: 150px; */
+     float: right;
+ } 
+
+ .loop-heading {
+     font-family: "GD Boing", sans-serif;
+     font-size: 2.5rem;
+     line-height: 2.5rem;
+     font-weight: 700;
+     position: relative;
+     max-width: 66.666667%;
+     margin: 1rem auto;
+ }
+
+ .loop-heading::before {
+    content: "";
+    background-image: url(images/circle-outline.588e44ec.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30%;
+    height: 60px;
+    top: -50px;
+    right: 0;
+ }
+
+ .loop-text {
+     font-size: .9rem;
+     font-weight: 500;
+     line-height: 1.5rem;
+     max-width: 50%;
+     margin: 0 auto;
+ }
+
+ .loop form {
+     padding-top: 80px;
+ }
+
+ .loop form input {
+     border-radius: 10px;
+     border: 1px solid #e9e9e9;
+     box-sizing: border-box;
+     padding: 10px 30px;
+     margin: 10px 5px;
+     font-size: .8rem;
+     line-height: 25px;
+ }
+
+ .loop form input[placeholder] {
+     background-color: #1d3754;
+     color: #9ca8b4;
+     font-weight: 400;
+ }
+ .loop form input[value="Subscribe"] {
+     background-color: #e9e9e9;
+     color: #08386d;
+     font-weight: 700;
+     width: 120px;
+     cursor: pointer;
+ }
+  /* .loop-text {
+      width: 55%;
+     /* background-image: url(images/circle-outline.588e44ec.gif);
+     background-repeat: no-repeat;
+     background-position: top right;
+     background-size: contain; */
+ 
+
+
+
+/* ===============================================================================================================
+--------------------------------------- STYLING FOR THE FOOTER ------------------------------------------------
+==================================================================================================================*/
+
+footer {
+    background-color: #f5fafe;
+    color: #a8a8a8;
+}
+
+footer h4 {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(8, 56, 109);
+}
+.footer-col p {
+    font-size: 14px;
+    color: #2f2f2f;
+}
+.footer-container {
+    padding: 65px 90px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.footer-row1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-column-gap: 80px; 
+    justify-content: center;
+}
+
+.footer-col li {
+    list-style: none;
+    line-height: 1.6rem;
+}
+
+.footer-col ul {
+    padding: 0;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer .footer-row2 {
+    border-top: 1px solid #a8a8a8;
+    margin-top: 35px;
+    padding-top: 15px;
+    
+}
+
+.social-icons {
+    font-size: 2em;
+    margin-left: 20px;
+    float: right;
+}
+
+.footer-col img, .footer-col h4 {
+    margin-bottom: 25px;
+}
+
+
+
+/* ===============================================================================================================
+--------------------------------------- MEDIA  QUERIES ------------------------------------------------
+==================================================================================================================*/
+
+
+
+@media screen and (max-width: 992px) {
+    .internship-card-container {
+        display: block;
+    } 
+    div.internship-card {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .loop-text {
+       max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.loop {
+        padding: 40px 0;
+    }
+    .loop-container {
+        padding: 40px 15px;
+    }
+   .loop-heading {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: GD Boing,sans-serif;
+    margin: 1rem auto;
+   }
+   .loop-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .loop-form {
+        width: 100%;
+    }
+    .loop form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+    }
+    div.footer-row1 div.footer-col {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .footer-row1 {
+        grid-column-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 621px) {
+    .footer-row1 {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .footer-row2 {
+        display: grid;
+        align-items: center;
+    }
+    .social-icons  {
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+    .social-icons a img {
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        font-size: 1.6rem;
+    }
+    .footer-col p {
+        text-align: center;
+        margin-top: 0;
+    }
+    /* .footer-container {
+        padding: ;
+    } */
+
+}
+
+@media screen and (max-width: 778px) {
+    .foot-print-logo img{
+        transform: scale(.4);
+    }
+}
+
+
+/* .join-the-next[data-v-6bcc4429] {
+    background: linear-gradient(280.46deg,#08386d 5.62%,#054388 86.73%);
+    box-shadow: 0 12px 25px rgb(16 89 200 / 27%);
+    color: #fff;
+    border-radius: 50px;
+    position: relative; */
+
+    /* join-the-next[data-v-6bcc4429]:after, .join-the-next[data-v-6bcc4429]:before {
+        content: "";
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZgAAAAiCAYAAABiHc/
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 30%; */
+
+
+        /*join-container[data-v-6bcc4429] {
+    background-image: url(data:image/png;base64,
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation: anim1-6bcc4429 20s infinite alternate-reverse;
+}*/
